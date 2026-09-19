@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Jamcy’s Bakery | Cakes, Cookies, Snacks &amp; Catering</title>
+<meta name="description" content="Order delicious cakes, cookies, snacks, event packages and catering from Jamcy’s Bakery. Delivery and pickup available."/>
+<meta name="theme-color" content="#8E1B3F"/>
+<meta property="og:title" content="Jamcy’s Bakery | Elegant in Every Mouthful"/>
+<meta property="og:description" content="Beautiful cakes, delicious cookies, irresistible snacks and memorable event treats — freshly made with love. Order on WhatsApp for delivery or pickup."/>
+<meta property="og:type" content="website"/>
+<meta property="og:image" content="https://images.unsplash.com/photo-1499636136210-6f4ee915583e?q=80&w=1200&auto=format&fit=crop"/>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Ccircle cx='32' cy='32' r='32' fill='%238E1B3F'/%3E%3Ctext x='32' y='45' font-family='Georgia' font-size='36' fill='%23FFD25E' text-anchor='middle'%3EJ%3C/text%3E%3C/svg%3E"/>
+<link rel="preconnect" href="https://fonts.googleapis.com"/>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,600;0,700;0,800;1,500;1,600&family=Great+Vibes&family=Jost:ital,wght@0,300;0,400;0,500;0,600;1,400&display=swap" rel="stylesheet"/>
+<script src="https://cdn.tailwindcss.com"></script>
+<link rel="stylesheet" href="style.css">
+<script>
+tailwind.config = {
+  theme: { extend: {
+    colors: {
+      wine:   {50:'#FDEEF2',100:'#FBDCE4',200:'#F5BCCB',300:'#EE93AC',400:'#E05E84',500:'#C43360',600:'#A61F4B',700:'#8E1B3F',800:'#6E1430',900:'#4E0E22'},
+      gold:   {50:'#FFFAEB',100:'#FFF1C9',200:'#FFE39B',300:'#FFD25E',400:'#F7BE3A',500:'#E8A920',600:'#C98A16',700:'#A56E14'},
+      cream:  '#FFF9F0',
+      ivory:  '#FFFDF8',
+      blush:  {50:'#FFF3F4',100:'#FFE4E8',200:'#FFCDD4',300:'#FFA8B4',400:'#FB7E90',500:'#EF5D73'},
+      leaf:   {50:'#F4FAEE',100:'#E6F4D9',200:'#CDEBB4',300:'#ACDA8A',400:'#8CC664',500:'#6FB04A',600:'#579038',700:'#45722D'},
+      cocoa:  {400:'#9A7355',500:'#7A5638',600:'#5F4128',700:'#462F1C'}
+    },
+    fontFamily: {
+      display:['"Playfair Display"','Georgia','serif'],
+      script:['"Great Vibes"','cursive'],
+      sans:['Jost','"Segoe UI"','sans-serif']
+    },
+    boxShadow: {
+      soft:'0 16px 44px -18px rgba(142,27,63,.22)',
+      lift:'0 28px 64px -22px rgba(110,20,48,.32)',
+      card:'0 8px 28px -12px rgba(70,47,28,.16)'
+    },
+    borderRadius:{arch:'9rem 9rem 1.25rem 1.25rem'}
+  }}
+};
+</script>
+<script crossorigin src="https://unpkg.com/react@18.3.1/umd/react.production.min.js"></script>
+<script crossorigin src="https://unpkg.com/react-dom@18.3.1/umd/react-dom.production.min.js"></script>
+<script src="https://unpkg.com/@babel/standalone@7.24.7/babel.min.js"></script>
+</head>
+<body>
+<div id="root"></div>
+<script type="text/babel" data-presets="react"src="script.js"></script>
+</body>
+</html>
